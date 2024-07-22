@@ -146,28 +146,3 @@ for solucao, nome in solucoes.items():
   diferenca = solucao - melhor
   porcentagem = solucao / melhor * 100
   print(f"{nome}: {solucao:.5f}, diferença de {diferenca:.5f} | {porcentagem:.3f}")
-
-
-# opcao1 = solucao1(interacoes)
-# opcao2 = solucao2(interacoes)
-# opcao3 = solucao3(interacoes)
-# opcao4 = solucao4(interacoes)
-# melhor = min(opcao1, opcao2, opcao3, opcao4)
-
-# if opcao1 < opcao2 and opcao1 < opcao3 and opcao1 < opcao4:
-#   print("Solução 1 é a mais rápida")
-# elif opcao2 < opcao1 and opcao2 < opcao3 and opcao2 < opcao4:
-#   print("Solução 2 é a mais rápida")
-# elif opcao3 < opcao1 and opcao3 < opcao2 and opcao3 < opcao4:
-#   print("Solução 3 é a mais rápida")
-# else:
-#   print("Solução 4 é a mais rápida")
-
-# print(f"Solução 1: {opcao1:.5f}, diferença de {
-#       (opcao1 - melhor):.5f} | {(opcao1 / melhor * 100):.3f}")
-# print(f"Solução 2: {opcao2:.5f}, diferença de {
-#       (opcao2 - melhor):.5f} | {(opcao2 / melhor * 100):.3f}")
-# print(f"Solução 3: {opcao3:.5f}, diferença de {
-#       (opcao3 - melhor):.5f} | {(opcao3 / melhor * 100):.3f}")
-# print(f"Solução 4: {opcao4:.5f}, diferença de {
-#       (opcao4 - melhor):.5f} | {(opcao4 / melhor * 100):.3f}")
