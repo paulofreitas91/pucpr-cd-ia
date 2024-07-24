@@ -21,7 +21,9 @@ def acuracia(matriz_confusao):
 
 if __name__ == "__main__":
   matriz_confusao = np.array([[50, 20, 2, 10], [40, 70, 20, 15], [10, 30, 40, 5], [5, 10, 30, 50]])
+  print(matriz_confusao)
   print(acuracia(matriz_confusao))
 
   matriz_confusao2 = np.array(gerar_matriz(10, 10))
+  print(matriz_confusao2)
   print(acuracia(matriz_confusao2))
